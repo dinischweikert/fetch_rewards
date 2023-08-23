@@ -1,6 +1,6 @@
 # Fetch Rewards Coding Exercise
 
-About the data sets:
+### About the data sets:
 Receipts Data Schema
 * Download receipts.json.gz
 * _id: uuid for this receipt
@@ -38,3 +38,8 @@ _id: brand uuid
 * cpg: reference to CPG collection
 * topBrand: Boolean indicator for whether the brand should be featured as a 'top brand'
 * name: Brand name
+
+
+### Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
+Develop a simplified, structured, relational diagram to represent how you would model the data in a data warehouse. The diagram should show each table’s fields and the joinable keys. 
+Image in file titled "Relational Data Model"
