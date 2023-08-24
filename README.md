@@ -2,7 +2,6 @@
 
 ### About the data sets:
 Receipts Data Schema
-* Download receipts.json.gz
 * _id: uuid for this receipt
 * bonusPointsEarned: Number of bonus points that were awarded upon receipt completion
 * bonusPointsEarnedReason: event that triggered bonus points
@@ -20,7 +19,6 @@ Receipts Data Schema
 * userId: string id back to the User collection for the user who scanned the receipt
 
 Users Data Schema
-* Download users.json.gz
 * _id: user Id
 * state: state abbreviation
 * createdDate: when the user created their account
@@ -29,8 +27,7 @@ Users Data Schema
 * active: indicates if the user is active; only Fetch will de-activate an account with this flag
 
 Brand Data Schema
-* Download brands.json.gz
-_id: brand uuid
+* _id: brand uuid
 * barcode: the barcode on the item
 * brandCode: String that corresponds with the brand column in a partner product file
 * category: The category name for which the brand sells products in
@@ -42,4 +39,4 @@ _id: brand uuid
 
 ### Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
 Develop a simplified, structured, relational diagram to represent how you would model the data in a data warehouse. The diagram should show each table’s fields and the joinable keys. 
-Image in file titled "Relational Data Model"
+Image in file titled "Fetch Rewards Relational Data Model"
